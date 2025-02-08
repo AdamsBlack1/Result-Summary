@@ -5,7 +5,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -28,8 +27,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/AdamsBlack1/Result-Summary)
+- Live Site URL: [Add live site URL here](https://result-summary-two-nu.vercel.app/)
 
 ## My process
 
@@ -55,8 +54,8 @@ I want to continue to work on how to use Tailwind for styling. It seems a lot ea
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@AdamsBlack1](https://www.frontendmentor.io/profile/AdamsBlack1)
+- Twitter - [@Adamsblac](https://x.com/Adamsblac)
 
 
 ## Acknowledgments
