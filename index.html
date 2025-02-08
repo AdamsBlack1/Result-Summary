@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body class="bg-[#ebf1ff] flex flex-col md:items-center md:justify-center h-[100%] min-h-screen overflow-y-auto">
+
+  <div class="flex flex-col md:flex-row">
+    <div class="bg-[#1125d4] text-[#c8c7ff] w-full md:w-1/2 h-[100] min-h-[screen] p-4 md:p-8 rounded-b-2xl md:rounded-2xl -mb-4 md:-mr-4 md:mb-0 relative z-10 text-center flex flex-col justify-center items-center gap-4 ">
+      <h3 class="text-xl text-semibold">Your Result</h3>
+      <div class="bg-[#4B24CC] w-[200px] h-[200px] rounded-full flex flex-col items-center justify-center">
+        <h2 class="text-7xl text-white font-bold leading-tight">76</h2>
+        <p class="text-sm">of 100</p>
+      </div>
+      <h2 class="text-white font-bold text-2xl">Great</h2>
+      <p class="w-[80%]">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+
+
+    <div class="bg-[white] w-full md:w-1/2 py-[2.5rem] p-4 md:p-8 md:pl-[3rem] relative rounded-b-2xl md:rounded-e-2xl flex flex-col item-center justify-center gap-4">
+      <h3 class="font-semibold text-xl">Summary</h3>
+      <div class="flex flex-col gap-4">
+        <div class="bg-[#ff5757]/10 flex justify-between items-center p-3 rounded-lg">
+          <div class="flex item-center gap-1">
+            <img src="./assets/images/icon-reaction.svg">
+            <h2 class="text-[#ff5757] font-bold">Reaction</h2>
+          </div>
+          <p class="font-bold">80 <span class="text-[#303b5a]/40">/ 100</span></p>
+        </div>
+
+        <div class="bg-[#ffb01f]/10 flex justify-between items-center p-3 rounded-lg">
+          <div class="flex item-center gap-1">
+            <img src="./assets/images/icon-reaction.svg">
+            <h2 class="text-[#ffb01f] font-bold">Memory</h2>
+          </div>
+          <p class="font-bold">80 <span class="text-[#303b5a]/40">/ 100</span></p>
+        </div>
+
+        <div class="bg-[#00bd91]/10 flex justify-between items-center p-3 rounded-lg">
+          <div class="flex item-center gap-1">
+            <img src="./assets/images/icon-reaction.svg">
+            <h2 class="text-[#00bd91] font-bold">Verbal</h2>
+          </div>
+
+          <p class="font-bold">80 <span  class="text-[#303b5a]/40">/ 100</span></p>
+        </div>
+
+        <div class="bg-[#1125d4]/10 flex justify-between items-center p-3 rounded-lg">
+          <div class="flex item-center gap-1">
+            <img src="./assets/images/icon-reaction.svg">
+            <h2 class="text-[#1125d4] font-bold">Visual</h2>
+          </div>
+
+          <p class="font-bold">80 <span class="text-[#303b5a]/40">/ 100</span></p>
+        </div>
+      </div>
+
+      <button class="bg-[#303b5a] text-white p-3 w-[90%] rounded-2xl mx-auto mt-4"><a href="#">Continue</a></button>
+    </div>
+  </div>
+
+
+
+
+  <div class="attribution p-4">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">AdamsBlack & Mr Najeeb</a>.
+  </div>
+</body>
+</html>
