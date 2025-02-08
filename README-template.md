@@ -27,15 +27,15 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/AdamsBlack1/Result-Summary)
-- Live Site URL: [Add live site URL here](https://result-summary-two-nu.vercel.app/)
+- Solution URL: [Github Link](https://github.com/AdamsBlack1/Result-Summary)
+- Live Site URL: [Live on Vercel](https://result-summary-two-nu.vercel.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- [Styled Components](https://tailwindcss.com/docs/) - For styles
+- [Tailwind](https://tailwindcss.com/docs/) - For styles
 
 
 ### What I learned
